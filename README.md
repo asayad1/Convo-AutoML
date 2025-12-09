@@ -5,6 +5,8 @@ This project is an agentic, LLM-guided dataset analyzer that performs automated 
 ## Working Demonstration of Project (YouTube Video Demo)
 [![Working Demonstration of Project](https://img.youtube.com/vi/TNx-ELM-Ajg/0.jpg)](https://www.youtube.com/watch?v=TNx-ELM-Ajg)
 
+Video link if the embedded video isnt working: https://www.youtube.com/watch?v=TNx-ELM-Ajg
+
 ## How to Run
 
 This project uses either Ollama or Portkey as its AI backend. The model used msut be a GPT-OSS thinking model. Configs can be configued in `automl_convo/config.py`.
@@ -87,4 +89,5 @@ You can then begin asking questions about any dataset you’ve placed in the `da
 
 * **Training Tool**
   This tool fits the planned models using cross-validation, computes performance metrics, and derives feature importances when the model type permits. Its outputs drive both the critic and the final analysis.
+
 
